@@ -29,15 +29,7 @@ def function1(x):
     return 3 * function2(x)
     
 function1(2)
-# call the function
-# a = function1(2)
-# print (a)
 
-# b = function2(2.5) # error
-# print (b)
-
-##############################
-#global vs local 
 
 x = 1
 def add_one (x):
@@ -46,7 +38,7 @@ def add_one (x):
     return x
 
 
-# call the function
+# 
 y = add_one (x)
 print(x)
 print(y)
@@ -84,7 +76,7 @@ print(help(func1))
 print(func1(20))
 ###############################
 print("#"*30)
-#assignment using tubles 
+ 
 
 t = (1, 2, 3)
 x, y, z = t
